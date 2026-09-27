@@ -742,7 +742,7 @@ def base(title: str, meta: str, path: str, body: str, extra_head: str = "", robo
           </div>
         </div>
   </footer>
-  <script src="/js/main.js" defer></script>
+  <script src="/js/main.js?v=20260927" defer></script>
 </body>
 </html>
 """)

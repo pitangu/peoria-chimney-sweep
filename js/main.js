@@ -5,7 +5,7 @@
 (function () {
   const PHONE_DISPLAY = "(309) 555-0148";
   const PHONE_TEL = "+130****0148";
-  const FORM_ENDPOINT = ""; // optional: Formspree / Getform URL
+  const FORM_ENDPOINT = "https://formsubmit.co/ajax/peoriachimneysweep@gmail.com";
   // Snapshot of consent wording shown on the form at submission time.
   // Keep in sync with the visible checkbox label in build.py lead_form().
   const CONSENT_TEXT =
@@ -223,8 +223,9 @@
               "mailto:leads@chimneysweeppeoriail.com?subject=" + subject + "&body=" + body;
           }
           if (status) {
-            status.textContent =
-              "Thanks! If your email app opened, hit send. Or call " + PHONE_DISPLAY + " now.";
+            status.textContent = FORM_ENDPOINT
+              ? "Thanks! Your request was sent. A local pro will follow up, or call " + PHONE_DISPLAY + "."
+              : "Thanks! If your email app opened, hit send. Or call " + PHONE_DISPLAY + " now.";
           }
           form.reset();
           if (consentInput) consentInput.checked = false;
