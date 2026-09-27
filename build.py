@@ -651,13 +651,13 @@ def base(title: str, meta: str, path: str, body: str, extra_head: str = "", robo
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <meta name="google-site-verification" content="_dAF_VWUbVx4oglhNYuZq197uV76lkQ0j6VFS8Ml4dg">
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FM1TX0K0KD"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3QYJ5L6MXW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
 
-    gtag('config', 'G-FM1TX0K0KD');
+    gtag('config', 'G-3QYJ5L6MXW');
   </script>
   {extra_head}
 </head>
